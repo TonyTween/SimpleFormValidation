@@ -9,3 +9,7 @@ const form = document.querySelector('#myForm');
 form.addEventListener('sumbit', (e) => {
   e.preventDefault();
 });
+
+function validateFirstName() {
+  
+}
