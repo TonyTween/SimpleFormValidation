@@ -11,7 +11,7 @@ form.addEventListener('sumbit', (e) => {
 });
 
 function validateName(e) {
-  if(!e.target.value) return true; 
+  if(!e.target.value) return false;
 
   return true;
 }
