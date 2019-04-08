@@ -9,3 +9,25 @@ const form = document.querySelector('#myForm');
 form.addEventListener('sumbit', (e) => {
   e.preventDefault();
 });
+
+function validateName() {
+
+}
+
+function validatePassword() {
+
+}
+
+function validateConfirmPassword() {
+
+}
+
+function validateEmail() {
+
+}
+
+firstName.addEventListener('focusout', validateName.bind(null, firstName));
+lastName.addEventListener('focusout', validateName.bind(null, lastName));
+password.addEventListener('focusout', validatePassword);
+confirmPassword.addEventListener('focusout', validateConfirmPassword);
+email.addEventListener('focusout', validateEmail);
