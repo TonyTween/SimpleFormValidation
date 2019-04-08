@@ -10,8 +10,10 @@ form.addEventListener('sumbit', (e) => {
   e.preventDefault();
 });
 
-function validateName() {
+function validateName(e) {
+  if(!e.target.value) return;
 
+  return true;
 }
 
 function validatePassword() {
